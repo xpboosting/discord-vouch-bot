@@ -31,7 +31,7 @@ async def vouch(ctx):
         # Create an embed for the vouch
         embed = discord.Embed(
             title="Vouch Given",
-            description=f"+rep <@1180110712983527474> by {ctx.author.mention} for **{vouch_info}**",
+            description=f"+rep <@youruserid> by {ctx.author.mention} for **{vouch_info}**",
             color=0x00FFFF  # You can customize the color here
         )
 
